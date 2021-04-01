@@ -1,4 +1,5 @@
 from math import *
+import usefule_functions
 
 #string lession
 
@@ -67,7 +68,7 @@ print("Hello "+ name + "!"+ " You are " + age)
 # Basic Calculator
 
 """
-"""
+
 
 num1 = input("Enter a number : ")
 num2 = input("Enter another number : ")
@@ -75,7 +76,12 @@ num2 = input("Enter another number : ")
 result =int(num1)+int(num2)
 
 print(result)
+"""
 
+# use inport functionality
+print(usefule_functions.beatles)
+print(usefule_functions.roll_dice(10))
+print(usefule_functions.get_file_ext("fyfile.json"))
 
 
 

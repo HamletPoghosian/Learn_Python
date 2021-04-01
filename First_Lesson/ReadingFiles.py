@@ -13,6 +13,16 @@ json_first_file.writelines("\nSimona1 - English professor1")
 
 json_first_file.close()
 
+
+# w  overwriting all info
+# a add line in to end
+url = "C:\\Users\\hamlet.poghosyan\\Desktop\\Filerforpython1.txt"
+json_first_file = open(url,"w")
+
+json_first_file.writelines("\nSimona1 - English professor1")
+
+
+json_first_file.close()
 #---------reading files in python
 # r for reading some info in file
 
